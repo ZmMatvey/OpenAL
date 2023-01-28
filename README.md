@@ -6,3 +6,4 @@
 2) сайт для загрузки библиотеки OpenAL, на нём есть и руководство по OpenAL -> https://openal.org/downloads/
 
 3) дополнительные ресурсы -> http://steps3d.narod.ru/tutorials/openal-tutorial.html
+-> http://www.mega-nerd.com/libsndfile/api.html
