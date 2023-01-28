@@ -10,7 +10,7 @@ private:
 	ALuint p_Buffer = 0;
 
 	int* copy;
-
+	
 public:
 	SoundEffectsPlayer();
 
@@ -32,8 +32,8 @@ public:
 	void SetMinGain(float val) const;
 	void SetMaxGain(float val) const;
 	void SetConeOuterGain(float val) const;
-	void SetConeInnerAngle(int val) const;
-	void SetConeOuterAngle(int val) const;
+	void SetConeInnerAngle(float val) const;
+	void SetConeOuterAngle(float val) const;
 	void SetPosition(const float vec[3]) const;
 	void SetVelocity(const float vec[3]) const;
 	void SetDirection(const float vec[3]) const;

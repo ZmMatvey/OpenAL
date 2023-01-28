@@ -100,12 +100,12 @@ void SoundEffectsPlayer::SetConeOuterGain(float val) const {
 	alSourcef(p_Source, AL_CONE_OUTER_GAIN, val);
 }
 
-void SoundEffectsPlayer::SetConeInnerAngle(int val) const {
-	alSourcei(p_Source, AL_CONE_INNER_ANGLE, val);
+void SoundEffectsPlayer::SetConeInnerAngle(float val) const {
+	alSourcef(p_Source, AL_CONE_INNER_ANGLE, val);
 }
 
-void SoundEffectsPlayer::SetConeOuterAngle(int val) const {
-	alSourcei(p_Source, AL_CONE_OUTER_ANGLE, val);
+void SoundEffectsPlayer::SetConeOuterAngle(float val) const {
+	alSourcef(p_Source, AL_CONE_OUTER_ANGLE, val);
 }
 
 void SoundEffectsPlayer::SetPosition(const float vec[3]) const {
